@@ -7,7 +7,7 @@ import Button from '@/components/forms/button/button'
 export default function GameCard() {
     return (
         <div className={styles.gamecard}>
-            <Image src='/products/Black-Desert-Online-Nova-região-Terra-do-Amanhecer.jpg' width={300} height={145} />
+            <Image className={styles.image} src='/products/Black-Desert-Online-Nova-região-Terra-do-Amanhecer.jpg' width={300} height={145} />
             <div className={styles.info}>
                 <h3 className={styles.title}>Black desert online</h3>
                 <p className={styles.category}>MMO, JxJ on-line, Cooperativo on-line.</p>
