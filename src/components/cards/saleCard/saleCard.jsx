@@ -3,10 +3,10 @@ import Image from 'next/image'
 import styles from './saleCard.module.css'
 import Button from '@/components/forms/button/button'
 
-export default function SaleCard({ image, discount, fullPrice, discountPrice }) {
+export default function SaleCard({image, discount, fullPrice, discountPrice}) {
     return (
         <div className={styles.salecard}>
-            <Image src={`/products/${image}`} alt={`Produto ${image}`} width={250} height={300} />
+            <Image src={`/products/${image}`} width={250} height={300} />
             <div className={styles.info}>
                 <h3 className={styles.title}>Oferta Exclusiva!</h3>
                 <div className={styles.pricecard}>
@@ -24,8 +24,9 @@ export default function SaleCard({ image, discount, fullPrice, discountPrice }) 
 }
 
 SaleCard.defaultProps = {
-    image: 'Shovel Knight Specter of Torment.jpg',
-    discount: '25%',
-    fullPrice: ' 19,99',
-    discountPrice: '14,99'
+        Image:'Mega Man Legacy Collection 2.jpg',
+        discount: '%50',
+        fullPrice: '66,90',
+        discountPrice: '33,45'
 }
+

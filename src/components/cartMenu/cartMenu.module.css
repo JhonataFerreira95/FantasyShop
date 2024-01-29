@@ -1,0 +1,16 @@
+.menu {
+    background: #364A63;
+    width: 350px;
+    position: absolute;
+    right: 60px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}

@@ -40,7 +40,7 @@ export default function Home() {
               <SaleCard
                 image={'Mega Man Legacy Collection 2.jpg'}
                 discount={'50%'}
-                fullPrice={' 66,90'}
+                fullPrice={'66,90'}
                 discountPrice={'33,45'}
               />
             </div>
@@ -81,7 +81,7 @@ export default function Home() {
               <GameCard
                 image={'A_Hat_in_Time.jpg'}
                 title={'A Hat in Time'}
-                category={'Um jogador, conquistas steam, oficina steam.'}
+                category={'Cooperativo on-line, conquistas steam, oficina steam.'}
                 price={'88,99'}
               />
               <GameCard
