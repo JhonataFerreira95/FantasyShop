@@ -4,6 +4,10 @@ Esse projeto foi construído para fins didáticos.
 
 Esta é a base para o projeto, com todas as imagens necessárias.
 
+## Status do projeto
+
+Parado!
+
 ## Tecnologias
 
 - NextJs na sua versão 13.4.1
